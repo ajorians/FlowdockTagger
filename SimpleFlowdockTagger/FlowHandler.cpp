@@ -73,10 +73,14 @@ void FlowHandler::HandleMessages()
 
    if( !bSaidSomething )
    {
-      if ( strUserName.find( "Andrew" ) != -1 )
+      if ( strUserName.find( "a.novak" ) != -1 )
       {
          FlowAPILibrary::instance().Tag( m_pFlowdock, m_strOrg, m_strFlow, m_strUsername, m_strPassword, nThreadID, "YOLO" );
       }
+      /*else if( strUserName.find( "j.anderson" ) != -1 )
+      {
+         FlowAPILibrary::instance().Tag( m_pFlowdock, m_strOrg, m_strFlow, m_strUsername, m_strPassword, nThreadID, "Jacob" );
+      }*/
    }
 
    if( bSaidSomething )

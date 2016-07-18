@@ -21,7 +21,29 @@ int main(int argc, char *argv[])
    cout << "Starting up FlowTagger" << endl;
 
    FlowdockTagger bot;
-   bot.AddFlow("aj-org",      "main",              "ajorians@gmail.com",      "1Smajjmd");
+   //bot.AddFlow("aj-org",      "main",              "ajorians@gmail.com",      "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasia-windows",  "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "cory-test",         "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "development",       "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "snagit-windows",    "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "ux-overhaul",       "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "git-initiative",    "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "main",              "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "smartplayer",       "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "identity",          "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasia-win",      "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "macdevroom",        "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasia-mac",      "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "volleyball",        "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasia-program",  "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "cloud-services",    "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "relay",             "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "vs2015-upgrade",    "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "geneye-win10",      "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "snagit-triage",     "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasiawincaptions", "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "camtasia-animations", "a.orians@techsmith.com",  "1Smajjmd");
+   bot.AddFlow("techsmith",   "identity-core",     "a.orians@techsmith.com",  "1Smajjmd");
 
    int n = 0;
    while(true)
